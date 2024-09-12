@@ -1,8 +1,23 @@
 body {
-    margin: 15px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: seashell;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0;
+    padding: 0;
 }
+
+.content {
+    background-color: seashell;
+    margin: 40px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px black;
+    position: relative;
+}
+
 
 html {
     background-color: seashell;
@@ -10,6 +25,7 @@ html {
 
 table {
     border-collapse: collapse;
+    border-left: 250px;
 }
 
 table th {
